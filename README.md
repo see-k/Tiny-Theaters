@@ -48,7 +48,7 @@ ____________________________________________________________________
 ```diff
 + Use link below to go to project board
 ```
-[Link to Public Trello Board: MO5 Mastery Project](https://trello.com/b/XkHJu36o)
+[Link to Public Trello Board: MO5 Mastery Project](https://trello.com/b/PTnqEPNP/m06-tiny-theaters)
 
 ## Time Tracker
 
