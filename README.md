@@ -20,21 +20,17 @@ _______________________________________________________
 This is a relational database that manages RCTTC's data in a way that's technically sound and safe.
 ___________________________________________________
 ### High Level Requirements
-The application user is an accommodation administrator. They pair guests to hosts to make reservations.
-
-- The administrator may view existing reservations for a host.
-- The administrator may create a reservation for a guest with a host.
-- The administrator may edit existing reservations.
-- The administrator may cancel a future reservation.
-
+ - Use RCTTC's data to design a multi-table schema with appropriate relationships.
+ - Build a SQL DDL script to create the schema.
+ - Populate the database with sample data from a delimited data file. Save the DML SQL so it can be executed whenever needed.
+ - Write report queries and confirm they're working with sample data.
 ___________________________________________________
 ### Instructions
-To launch the application
-- open terminal and navigate to the App.java file in the src folder
-- compile the program
-  -->javac App.java
-- launch the program
-  --> java App
+Use MySQL workbench 8.0 CE to run queries on the following files
+- rcttc-schema.sql: re-runnable DDL
+- rcttc-data.sql: data populating DML
+- rcttc-queries.sql: queries
+
 
 #### Code Step Sequence
 * [ ] Step 1 (Set Up)
