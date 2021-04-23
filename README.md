@@ -103,7 +103,7 @@ The Performances - The 2021 schedule:
   | `Customer Address` |`varchar`
   | `Seat` |`varchar`
   | `Show` |`varchar`
-  | `Ticket price` |`integer`
+  | `Ticket price` |`decimal`
   | `Date` |`date`
   | `Theater` |`varchar`
   | `Theater address` |`varchar`
