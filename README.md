@@ -55,11 +55,10 @@ Use MySQL workbench 8.0 CE to run queries on the following files
   
   
  ______________________________________________________________________
-## Example of Console Execution
-#### Making Reservations
-![x1](https://user-images.githubusercontent.com/40407778/114550371-b9375180-9c27-11eb-97cb-5cb29e2c95df.JPG)
-#### Changing Reservations
-![x2](https://user-images.githubusercontent.com/40407778/114550377-bb011500-9c27-11eb-8f87-d313621760e2.JPG)
+## Example
+![sample](https://user-images.githubusercontent.com/40407778/115920675-24f79680-a440-11eb-9779-ba72e08953b2.JPG)
+
+
 
 Figure 3
 ____________________________________________________________________
