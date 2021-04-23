@@ -67,7 +67,7 @@ ____________________________________________________________________
 Table 1
 
    ______________________________________________________________________
-## UML Chart
+## Entity Relations Chart
  ```diff
  + Click the link below to view UML chart in full page
  ```
