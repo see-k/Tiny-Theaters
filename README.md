@@ -31,28 +31,6 @@ Use MySQL workbench 8.0 CE to run queries on the following files
 - rcttc-data.sql: data populating DML
 - rcttc-queries.sql: queries
 
-
-#### Code Step Sequence
-* [ ] Step 1 (Set Up)
-  * [ ] Print header for introduction
-  * [ ] Show `menu` [0-4]
-* [ ] Step 2 (Perform event)
-  * [ ] Get user's `response` to menu
-  * [ ] Execute `event` based on user's response
-    * [ ] 0: Exit
-    * [ ] 1: View Reservations for host
-    * [ ] 2: Make a reservation
-    * [ ] 3: Edit a reservation
-    * [ ] 4: Cancel a reservation
-  * [ ] Call corresponding layer based on requested event 
-    * [ ] User Interface
-    * [ ] Domain
-    * [ ] Data Access
-    * [ ] Model
-  * [ ] Data in repository / file MUST be consistent with all `CRUD` events executed
-* [ ] Step 3 (exit)
-  * [ ] Exit App if `event` request is 0
-  
   
  ______________________________________________________________________
 ## Example
@@ -98,26 +76,21 @@ Table 1
 ![diagram](https://user-images.githubusercontent.com/40407778/115921472-27a6bb80-a441-11eb-8cc6-0d283984c547.jpg)
 
  ________________________________________________________
-### Notes
- Project will have an additional HTML page with additional explanation on methods and classes
-[link](https://github.com/see-k/dontWreckMyHouse)
 
 ### Glossary
-- Guest: 
-A customer. Someone who wants to book a place to stay. Guest data is provided via a zip download.
-
-- Host:
-The accommodation provider. Someone who has a property to rent per night. Host data is provided.
-
--  Location:
-A rental property. In Don't Wreck My House, Location and Host are combined. 
-The application enforces a limit on one Location per Host, so we can think of a Host and Location as a single thing.
-
--  Reservation:
-One or more days where a Guest has exclusive access to a Location (or Host). Reservation data is provided.
-
-- Adminstrator:
-The application user. Guests and Hosts don't book their own Reservations. The Administrator does it for them.
+The Performances - The 2021 schedule:
+- High School Musical
+- Hair
+- Dance, Dance Vertical: dance performed on a vertical surface using climbing equipment.
+- Caddyshack
+- Burr: the real dirt on Alexander Hamilton
+- Send in the Clowns
+- The Dress
+- Tell Me What To Think
+- The Sky Lit Up: cosmic horror
+- Ocean: the life of Frank Ocean as performed by Frank Ocean
+- Stop. Just Stop.
+- Wen
 
 #### Data Information
   
