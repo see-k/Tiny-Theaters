@@ -1,24 +1,23 @@
 ____________________________________
-# Tiny-Theaters
-### Dev10 Assessment: M05
+# Ramsey County Tiny Theater Company (RCTTC)
+### Dev10 Assessment: M06
 #### by Chike Okonta
-#### 04/19/2021
+#### 04/26/2021
 💻 Designed using Intelij
 
 _______________________________________________________
 ![iQFqp2Is](https://user-images.githubusercontent.com/40407778/115913154-d8a75900-a435-11eb-979a-b5a1cc493ec5.jpeg)
 
-
-
-
 ### Introduction
-[Don't wreck my house](https://stage3talent.brightspace.com/d2l/le/content/6716/viewContent/3713/View)  
+[Tiny Theaters](https://stage3talent.brightspace.com/d2l/le/content/6716/viewContent/3713/View)  
 ```diff
-+ This is an application that allows a user to reserve accommodations for a guest with a host.
-+ A guest chooses a place to stay for a specific date range. 
-+ If the host location is available, it may be reserved by the guest. 
-+ Reserved locations are not available to other guests during reserved dates.
++ The Ramsey County Tiny Theater Company manages three tiny theaters in the Saint Paul Metro. 
++ Each theater runs their own schedule of performances. 
++ Currently, RCTTC tracks ticket purchases in a spreadsheet since reservations are always made in person or via a phone call to the one and only office manager. 
++ There's never a chance of double-selling a ticket.
++ RCTTC is ready for their next step in professional theater; they're moving their reservation system online. 
 ```
+This is a relational database that manages RCTTC's data in a way that's technically sound and safe.
 ___________________________________________________
 ### High Level Requirements
 The application user is an accommodation administrator. They pair guests to hosts to make reservations.
