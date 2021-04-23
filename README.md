@@ -76,33 +76,15 @@ ____________________________________________________________________
 
 |DATE |TASK ID|ESTIMATED TIME (HRS) | START TIME (HRS:MINS)|END TIME (HRS:MINS)| STATUS
 |:---:| :---: | :---:               | :---:                |:---:              |:---:
-|4.12.2021| Research | 4              | 2:00 PM | 4:00 PM | Completed
-|4.13.2021| Planning  | 4              | 12:00 PM | 4:00 PM | Completed
-|4.13.2021| Setup Packages and models | 1              | 10:00 AM  | 11:00 AM | Completed
-|4.14.2021| Implement Guest Repository | 2              | 3:00 PM | 3:48 PM | Completed
-|4.14.2021| Implement Host Repository | 2              | 9:00 AM | 9:43 AM | Completed
-|4.14.2021| Implement Reservation Repository | 2              | 4:00 PM | 4:40PM | Completed
-|4.14.2021| Test Host Repository | 2              | 9:00 AM | 9:30 PM | Completed
-|4.14.2021| Test Guest Repository | 2              | 3:00 PM | 3:48 PM | Completed
-|4.14.2021| Test Reservation Repository | 2              | 4:00 PM | 4:40 PM | Completed
-|4.14.2021| First Progress presentation|0.25  | 10:00 AM | 10:15 AM | Completed
-|4.15.2021| Implement Host Services | 2              | 10:30 PM| 11:00 PM | Completed
-|4.15.2021| Implement Guest Services | 2              | 1:30 PM | 2:45 PM | Completed
-|4.15.2021| Implement Reservation Services | 2              | 10:30 PM | 11:00 PM | Completed
-|4.17.2021| Test Host Services | 2              | 10:00 AM | 2:00 PM | Completed
-|4.17.2021| Test Guest Services | 2             | 10:00 AM | 2:00 PM | Completed
-|4.17.2021| Test Reservation Services | 2              | 10:00 AM | 2:00 PM | Completed
-|4.16.2021| Implement View class | 1              | 9:00 AM  | 10:00 AM | Completed
-|4.16.2021| Implement Controller class | 1              | 10:00 AM | 10:00 AM  | Completed
-|4.16.2021| Implement App class | 0.5              | 9:00 PM | 9:15 PM | Completed
-|4.16.2021| Spring Annotations | 0.5  | 9:00 PM | 9:05 PM | Completed
-|4.16.2021| Second Progress presentation|0.25  | 10:15 AM | 10:30 AM | Completed
-|4.16.2021| Update Tests for 100% coverage| 0.5 | 10:00 AM | 2:00 PM | Completed
-|4.16.2021| Stretch Goal #1 | 4  | 6:00 PM | 10:00 PM | Completed
-|4.17.2021| Stretch Goal #2 | 4  | 6:00 PM | 10:00 PM | Completed
-|4.17.2021| Bugs: find and fix #1 | 1  | 6:00 PM | 10:00 PM | Completed
-|4.17.2021| Update Documentation, Javadoc, HTML page| 0.5| 10:00 AM | 2:00 PM | Completed
-|4.17.2021| Final Test: attempt to break code| 0.5             | 10:00 AM | 2:00 PM | Completed
+|4.23.2021| Step 1: DDL - Research on denormalized data| 2              | _ | _ | In progress
+|4.23.2021| Step 1: DDL - Planning and diagrams  | 4              | 12:00 PM | 4:00 PM | Completed
+|4.24.2021| Step 2: DML - Insert | 2              | _  | _ | Not Started
+|4.24.2021| Step 2: DML - Update | 2                 | _  | _ | Not Started
+|4.24.2021| Step 2: DML - Delete | 2      | _  | _ | Not Started
+|4.24.2021| Step 3: DQL- Complete all queries | 3          | _  | _ | Not Started
+|4.25.2021| Stretch Goal #1 | 2       | _  | _ | Not Started
+|4.25.2021| Stretch Goal #2 | 2      | _  | _ | Not Started
+|4.25.2021| Bugs and Errors: find and fix #1 | 1  | _  | _ | Not Started
 
 Table 1
 
@@ -141,12 +123,19 @@ The application user. Guests and Hosts don't book their own Reservations. The Ad
   
   |DATA| TYPE
   | :---:|:---:
-  |`Last Name`| `String`
-  | `First Name` |`Integer`
-  | `State`| `String`
-  | `File/Path`|`String`
-  | `Date`| `LocalDate`
-  | `Category`| `ENUM`
+  |`Customer Last Name`| `varchar`
+  | `Customer First Name` |`varchar`
+  | `Customer Email` |`varchar`
+  | `Customer Phone` |`varchar`
+  | `Customer Address` |`varchar`
+  | `Seat` |`varchar`
+  | `Show` |`varchar`
+  | `Ticket price` |`integer`
+  | `Date` |`date`
+  | `Theater` |`varchar`
+  | `Theater address` |`varchar`
+  | `Theater phone` |`varchar`
+  | `Ticket email` |`varchar`
 
 Table 2
 
