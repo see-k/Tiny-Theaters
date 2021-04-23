@@ -56,6 +56,9 @@ Use MySQL workbench 8.0 CE to run queries on the following files
   
  ______________________________________________________________________
 ## Example
+```diff
+- Click image below to expand
+```
 ![sample](https://user-images.githubusercontent.com/40407778/115920675-24f79680-a440-11eb-9779-ba72e08953b2.JPG)
 
 
