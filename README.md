@@ -3,7 +3,7 @@ ____________________________________
 ### Dev10 Assessment: M06
 #### by Chike Okonta
 #### 04/26/2021
-💻 Designed using Intelij
+💻 Designed using MySQL Workbench 8.0 CE
 
 _______________________________________________________
 ![iQFqp2Is](https://user-images.githubusercontent.com/40407778/115913154-d8a75900-a435-11eb-979a-b5a1cc493ec5.jpeg)
