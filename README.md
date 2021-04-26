@@ -54,12 +54,12 @@ ____________________________________________________________________
 
 |DATE |TASK ID|ESTIMATED TIME (HRS) | START TIME (HRS:MINS)|END TIME (HRS:MINS)| STATUS
 |:---:| :---: | :---:               | :---:                |:---:              |:---:
-|4.23.2021| Step 1: DDL - Research on denormalized data| 2              | _ | _ | In progress
+|4.23.2021| Step 1: DDL - Research on denormalized data| 2              | 5:00 PM | 6:00 PM |  Completed
 |4.23.2021| Step 1: DDL - Planning and diagrams  | 4              | 12:00 PM | 4:00 PM | Completed
-|4.24.2021| Step 2: DML - Insert | 2              | _  | _ | Not Started
-|4.24.2021| Step 2: DML - Update | 2                 | _  | _ | Not Started
-|4.24.2021| Step 2: DML - Delete | 2      | _  | _ | Not Started
-|4.24.2021| Step 3: DQL- Complete all queries | 3          | _  | _ | Not Started
+|4.24.2021| Step 2: DML - Insert | 2              | 5:00 PM  | 8:00 PM |  Completed
+|4.24.2021| Step 2: DML - Update | 2                 | 8:00  | 10:00 PM|  Completed
+|4.25.2021| Step 2: DML - Delete | 2      | 5:00 PM  | 8:00 PM |  Completed
+|4.25.2021| Step 3: DQL- Complete all queries | 3          | 10:00 PM  | 1:00 AM |  Completed
 |4.25.2021| Stretch Goal #1 | 2       | _  | _ | Not Started
 |4.25.2021| Stretch Goal #2 | 2      | _  | _ | Not Started
 |4.25.2021| Bugs and Errors: find and fix #1 | 1  | _  | _ | Not Started
